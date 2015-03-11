@@ -859,7 +859,7 @@
                 boundElement.val(displayColor);
             }
 
-            if (fireCallback && hasChanged) {
+            if (fireCallback) {
                 callbacks.change(color);
                 boundElement.trigger('change', [ color ]);
             }
